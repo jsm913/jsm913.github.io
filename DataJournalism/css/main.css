@@ -936,7 +936,7 @@ input::-moz-focus-inner {
 	float: left;
 	margin: 0;
 	padding: 1.5rem .6rem 0 0;
-	font-size: 8.4rem;
+	font-size: 5.4rem;
 	font-family: "montserrat-bold", sans-serif;
 	line-height: 6rem;
 	text-indent: 0;
@@ -1101,7 +1101,7 @@ input::-moz-focus-inner {
 .skill-bars li {
 	height: .6rem;
 	background: #a1a1a1;
-	width: 50%;
+	width: 40%;
 	margin-bottom: 6rem;
 	padding: 0;
 	position: relative;
@@ -1109,7 +1109,7 @@ input::-moz-focus-inner {
 
 .skill-bars img {
 	position: relative;
-	width : 45%;
+	width : 55%;
 	margin-right : 0;
 	margin-top : 0;
 	float:right;
@@ -1388,6 +1388,10 @@ header .header-logo a {
 	transition: all 0.5s ease-in-out;
 }
 
+header .img {
+	width : 10px;
+	height: 10px;
+}
 /* -------------------------------------------------------------------
  * menu trigger - (_layout.css)
  * ------------------------------------------------------------------- */
@@ -2341,7 +2345,7 @@ header .header-logo a {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	/* background-size: cover; */
-	min-height: 1000px;
+	min-height: 1020px;
 	position: relative;
 	padding: 12rem 0 9.6rem;
 	color: rgba(255, 255, 255, 0.3);
